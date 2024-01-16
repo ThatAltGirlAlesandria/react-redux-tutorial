@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 function Greeting() {
   return (
     <React.Fragment>
-      <div>
+      <div className="someValue">
         <h3>hello people</h3>
         <ul>
           <li>
@@ -12,6 +12,7 @@ function Greeting() {
           </li>
         </ul>
       </div>
+      <h2>hello world</h2>
     </React.Fragment>
   );
 }
