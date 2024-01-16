@@ -3,18 +3,18 @@ import ReactDOM from "react-dom/client";
 
 function Greeting() {
   return (
-    <div>
-      <h2>My First Component</h2>;
-    </div>
+    <React.Fragment>
+      <div>
+        <h3>hello people</h3>
+        <ul>
+          <li>
+            <a href="#">hello world</a>
+          </li>
+        </ul>
+      </div>
+    </React.Fragment>
   );
 }
-const Greeting = () => {
-  return React.createElement(
-    "div",
-    {},
-    React.createElement("h2", {}, "hello world")
-  );
-};
 
 const root = ReactDOM.createROOT(document.getElementById("root"));
 
